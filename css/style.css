@@ -5,4 +5,5 @@ body {
 /* section header top */
 .header-top {
     background-color: black;
+    line-height: 80px;
 }
