@@ -1,9 +1,19 @@
+/* common */
 body {
     font-family: Arial, sans-serif;
 }
 
 /* section header top */
 .header-top {
+    position: fixed;
+    z-index: 2;
+    position: relative;
     background-color: black;
-    line-height: 80px;
+    line-height: 40px;
+    /* max-width: 100%; */
+}
+.sony-logotipo {
+    width: 100px;
+    height: auto;
+    padding: 10px;
 }
