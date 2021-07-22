@@ -22,14 +22,38 @@ header {
     padding: 10px;
 }
 
+
 /* section header bottom */
 .header-bottom {
     background-color: rgb(196, 194, 194);
-    line-height: 100px;
+    line-height: 50px;
 }
 
-ul {
-    list-style-type: none; 
-    padding-left: 0;      
-    margin-left: 0;        
+.playstation-logo-blu {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+
 }
+
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 70px;  
+    margin-top: 16px;  
+    font-weight: 600;  
+}
+
+
+.button-accedi {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin-right: 40px;
+}
+
+.lente {
+    margin-right: 35px;
+    
+}
+
