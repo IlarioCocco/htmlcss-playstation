@@ -27,3 +27,9 @@ header {
     background-color: rgb(196, 194, 194);
     line-height: 100px;
 }
+
+ul {
+    list-style-type: none; 
+    padding-left: 0;      
+    margin-left: 0;        
+}
