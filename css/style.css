@@ -3,11 +3,15 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* section header top */
-.header-top {
+/* header */
+header {
     position: fixed;
     z-index: 2;
     position: relative;
+}
+
+/* section header top */
+.header-top {
     background-color: black;
     line-height: 40px;
     /* max-width: 100%; */
@@ -16,4 +20,10 @@ body {
     width: 100px;
     height: auto;
     padding: 10px;
+}
+
+/* section header bottom */
+.header-bottom {
+    background-color: rgb(196, 194, 194);
+    line-height: 100px;
 }
