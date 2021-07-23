@@ -75,23 +75,26 @@ ul li {
     max-width: 100%;
     height: auto;
     margin-top: 110px;
+    position: relative;
 }
 
 .returnal-img {
-    max-width: 55%;
+    max-width: 50%;
     margin-left: 35px;
     margin-top: 60px;
 }
 
 .rompi-il-cerchio {
     color: white;
-    padding: 40px;
-    font-size: 45px;
+    font-size: 55px;
+    margin-left: 40px;
+    padding-top: 20px;
 }
 
 .text-rialzati {
     color: white;
     margin-left: 40px;
+    padding-top: 20px;
 }
 
 .button-acquista-ora {
@@ -102,4 +105,10 @@ ul li {
     padding: 10px 15px;
     font-weight: bold;
     margin-left: 40px;
+    margin-top: 20px;
+}
+
+.hero-box {
+    position: absolute;
+    top: 38%;
 }
