@@ -304,6 +304,15 @@ footer {
     padding-bottom: 50px;
 }
 
+.text-country {
+    color: white;
+    display: flex;
+    padding-left: 30px;
+    align-content: flex-end;
+    font-size: 12px;
+
+}
+
 .color {
     color: white;
 }
@@ -314,8 +323,9 @@ footer {
 
 .globo {
     width: 3%;
-    padding-top: 40px;
-    
+    padding-top: 60px;
+    position: relative;
+    top: 15px;
 }
 
 .logo-sony-interactive {
