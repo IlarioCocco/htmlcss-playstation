@@ -67,11 +67,6 @@ header {
     vertical-align: middle;
 }
 
-
-
-
-
-
 .header-bottom {
     background-color: white;
 }
@@ -85,14 +80,6 @@ ul li {
     display: inline-block;
     padding-right: 45px;  
     font-size: 14px; 
-}
-
-.button-accedi {
-    border-radius: 30px;
-    background-color: rgb(61, 61, 61);
-    color: white;
-    padding: 10px 15px;
-    font-weight: bold;
 }
 /* section header bottom */
 
@@ -129,6 +116,13 @@ ul li {
 
 
 /* bottoni e pulsanti layout */
+.button-accedi {
+    border-radius: 30px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding: 10px 15px;
+}  
+
 .button-acquista-ora {
     border-radius: 30px;
     background-color: rgb(255, 102, 0);
@@ -232,7 +226,6 @@ ul li {
     right: 0;
     bottom: -15px;
     opacity: 1;
-    /* border-radius: 10px; */
 }
 /* overley for section playsttion cinque */
 
