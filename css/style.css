@@ -165,7 +165,7 @@ ul li {
 
 /* section playstation cinque */
 #playstation-cinque {
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 .play-has {
@@ -291,8 +291,8 @@ ul li {
 #esplora,
 .container-box,
 #nuovi-sconti {
-    padding-top: 70px;
-    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .container-box-nuovi-sconti {
@@ -335,7 +335,7 @@ ul li {
 }
 
 .img-social {
-    max-width: 6%;
+    width: 5%;
     padding: 10px;
     padding-top: 40px;
 }
