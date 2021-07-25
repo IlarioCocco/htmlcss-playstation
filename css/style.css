@@ -3,6 +3,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
+a:hover {
+    color: black;
+}
+
 /* simboli small tipografia */
 .tm {
     font-size: 7px;
@@ -181,7 +185,6 @@ ul li {
 }
 
 
-
 /* overley for section playsttion cinque */
 .barra:hover {
     width:100%;
@@ -220,6 +223,40 @@ ul li {
     opacity: 1;
     /* border-radius: 10px; */
 }
+/* overley for section playsttion cinque */
+
+/* overley dapositive */
+.imagine-bkg {
+    position: relative;
+}
+
+.overley-diapo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overley-diapo:hover {
+    background-color: rgba(0, 0, 0, 0.316);
+    opacity: 1;
+    border-radius: 25px;
+    margin-top: 30px;
+    border: 3px solid rgb(0, 102, 255);
+    /* transition: 1s; */
+}
+
+.returnal-img-small img {
+     width: 100%;
+     display: block;
+}
+/* overley dapositive */
 
 
 /* main section hero.uno */
@@ -343,37 +380,4 @@ footer {
 
 
 
-
-/* overley dapositive */
-.imagine-bkg {
-    position: relative;
-}
-
-.overley-diapo {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.overley-diapo:hover {
-    background-color: rgba(0, 0, 0, 0.508);
-    opacity: 1;
-    border-radius: 25px;
-    margin-top: 30px;
-    border: 5px solid rgb(0, 102, 255);
-    /* transition: 1s; */
-}
-
-
-.returnal-img-small img {
-     width: 100%;
-     display: block;
-}
     
