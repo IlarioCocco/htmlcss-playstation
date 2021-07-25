@@ -3,9 +3,24 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* section {
-    padding: 0px 0;
-} */
+/* simboli small tipografia */
+.tm {
+    font-size: 7px;
+    bottom: 4px;
+    position: relative;
+}
+
+.marchio-r {
+    font-size: 18px;
+    bottom: 10px;
+    position: relative;
+}
+
+.text-ottieni {
+    color: white;
+}
+/* simboli small tipografia */
+
 
 /* header */
 header {
@@ -56,7 +71,7 @@ ul li {
 
 .button-accedi {
     border-radius: 30px;
-    background-color: rgb(92, 92, 92);
+    background-color: rgb(61, 61, 61);
     color: white;
     margin-right: 30px;
     padding: 10px 15px;
@@ -71,32 +86,31 @@ ul li {
 
 
 /* main section hero */
-.hero {
-    max-width: 100%;
-    height: auto;
-    margin-top: 110px;
-    position: relative;
+#hero {
+   background-image: url(' ../img/jumbo-bg.png');
+   background-size: cover;
+   padding-top: 200px;
+   background-position: top center;
+   margin-top: 100px;
 }
 
 .returnal-img {
-    max-width: 25%;
-    margin-left: 35px;
-    margin-top: 60px;
+    max-width: 60%;
+    margin-top: 50px;
 }
 
 .rompi-il-cerchio {
     color: white;
-    font-size: 55px;
-    margin-left: 40px;
     padding-top: 20px;
 }
 
 .text-rialzati {
     color: white;
-    margin-left: 40px;
     padding-top: 20px;
 }
 
+
+/* bottoni e pulsanti layout */
 .button-acquista-ora {
     border-radius: 30px;
     background-color: rgb(255, 102, 0);
@@ -104,11 +118,192 @@ ul li {
     border: none;
     padding: 10px 15px;
     font-weight: bold;
-    margin-left: 40px;
     margin-top: 20px;
 }
 
-.hero-box {
-    position: absolute;
-    top: 35%;
+.maggiori-info-blu{
+    background-color: rgb(62, 113, 232);
 }
+
+.esplora-plus-button,
+.esplora-now-button {
+    border-radius: 30px;
+    background-color: rgb(217, 218, 220);
+    color: rgb(62, 113, 232);
+    border: 3px solid hsl(220, 4%, 86%);
+    padding: 10px 15px;
+}
+
+.esplora-now-button {
+    color: black;
+}
+/* bottoni e pulsanti layout */
+
+
+
+.box-text-first {
+    padding-bottom: 50px;
+    padding-right: 100px;
+}
+
+.returnal-img-small {
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+
+/* section playstation cinque */
+#playstation-cinque {
+    padding-top: 100px;
+}
+
+.play-has {
+    color: rgb(0, 174, 255)
+}
+
+.left-text-play {
+    padding-top: 100px;
+}
+
+.left-text-play-due{
+    padding-top: 250px;
+}
+
+.img-console-playstation {
+    width: 50%;
+}
+
+.text-center {
+    font-size: 85%;
+    padding-top: 5px;
+}
+
+
+
+/* overley for section playsttion cinque */
+.barra:hover {
+    width:100%;
+    border-bottom: 2px solid rgb(0, 145, 255);
+}
+
+.img-bkg-for-overley {
+    position: relative;
+}
+
+.overley {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    opacity: 1;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.364);
+}
+
+.overley:hover {
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 1;
+}
+
+.barra {
+    width:100%;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -15px;
+    opacity: 1;
+    /* border-radius: 10px; */
+}
+
+
+/* main section hero.uno */
+#hero-uno {
+   background-image: url(' ../img/it-takes-two-hero-banner-desktop.jpg');
+   background-size: cover;
+   background-position: center;
+   margin-top: 40px;
+}
+
+
+/* main section nuove uscite */
+#nuove-uscite {
+    padding: 40px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    padding-bottom: 100px;
+}
+
+.giochi-text {
+    padding-top: 15px;
+}
+
+.box-nuove-uscite-uno {
+    padding-top: 70px;
+}
+
+
+/* main section esplora + main section nuovi sconti */
+#esplora,
+.container-box,
+#nuovi-sconti {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.container-box-nuovi-sconti {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.img-esplora {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.text-grey {
+    color: grey;
+}
+
+
+
+/* main section play station plus */
+#play-plus {
+    background-color: rgb(190, 188, 187);
+}
+
+.container-plus, .container-now {
+    padding-top: 70px;
+}
+
+.plus-img-yellow {
+    width: 100%;
+}
+
+/* main section play station now */
+#play-now {
+    background-color: #161c3b;
+}
+
+/* main section social media */
+#social-media {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.img-social {
+    width: 8%;
+    padding: 10px;
+    padding-top: 60px;
+}
+
+/* footer  */
+footer {
+    background-color: rgb(0, 67, 156);
+}
+
+
+
+
