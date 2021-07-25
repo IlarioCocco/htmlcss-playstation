@@ -64,7 +64,7 @@ header {
     border: none;
     display:inline-block;
     width: 10px;
-    vertical-align: -1px;
+    vertical-align: middle;
 }
 
 
