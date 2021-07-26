@@ -191,6 +191,11 @@ ul li {
 
 
 /* overley for section playsttion cinque */
+.header-bottom .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(0, 123, 255);
+    font-size: 17px;
+}
+
 .barra:hover {
     width:100%;
     border-bottom: 2px solid rgb(0, 145, 255);
@@ -335,7 +340,7 @@ ul li {
 }
 
 .img-social {
-    width: 5%;
+    width: 10%;
     padding: 10px;
     padding-top: 40px;
 }
@@ -385,4 +390,5 @@ footer {
 /* footer  */
 
 
-    
+   
+
