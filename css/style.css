@@ -60,7 +60,7 @@ header {
 }
 
 .header-bottom .dropdown-toggle::after {
-    content: url('../img/chevron-down-solid-hover.svg');
+    content: url('../img/chevron-down-solid.svg');
     border: none;
     display:inline-block;
     width: 10px;
