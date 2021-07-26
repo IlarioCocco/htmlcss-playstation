@@ -73,12 +73,13 @@ header {
 
 .lente-icona {
     height: 35px;
+    padding-left: 15px;
 }
 
 ul li {
     list-style-type: none;
     display: inline-block;
-    padding-right: 45px;  
+    padding-right: 15px;  
     font-size: 14px; 
 }
 /* section header bottom */
