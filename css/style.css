@@ -390,6 +390,21 @@ footer {
 }
 /* footer  */
 
-
-   
+/* 
+.debug {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.debug .container {
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+	height: 100vh;
+}
+.debug .col:not(:last-child) {
+	border-right: 1px solid red;
+	height: 100vh;
+}    */
 
