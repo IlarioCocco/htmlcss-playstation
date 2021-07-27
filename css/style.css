@@ -283,7 +283,7 @@ ul li {
 } 
 
 .returnal-img-small:hover {
-    transform: translateY(-10px);
+    transform: translateY(-15px);
     transition: 1s;
 }
 
