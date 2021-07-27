@@ -1,3 +1,22 @@
+/* 
+.debug {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.debug .container {
+	border-left: 1px solid blue;
+	border-right: 1px solid blue;
+	height: 100vh;
+}
+.debug .col:not(:last-child) {
+	border-right: 1px solid red;
+	height: 100vh;
+}    */
+
+
 /* common */
 body {
     font-family: Arial, sans-serif;
@@ -25,6 +44,43 @@ a:hover {
     color: white;
 }
 /* simboli small tipografia */
+
+
+/* bottoni e pulsanti layout */
+.button-accedi {
+    border-radius: 30px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding: 10px 15px;
+}  
+
+.button-acquista-ora {
+    border-radius: 30px;
+    background-color: rgb(255, 102, 0);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    /* font-weight:600; */
+    margin-top: 20px;
+}
+
+.maggiori-info-blu{
+    background-color: rgb(62, 113, 232);
+}
+
+.esplora-plus-button,
+.esplora-now-button {
+    border-radius: 30px;
+    background-color: rgb(209, 212, 220);
+    color: rgb(62, 113, 232);
+    border: 3px solid hsl(240, 2%, 90%);
+    padding: 10px 15px;
+}
+
+.esplora-now-button {
+    color: black;
+}
+/* bottoni e pulsanti layout */
 
 
 /* header */
@@ -114,44 +170,6 @@ ul li {
 #diapositive {
     margin-top: 30px;
 }
-
-
-/* bottoni e pulsanti layout */
-.button-accedi {
-    border-radius: 30px;
-    background-color: rgb(61, 61, 61);
-    color: white;
-    padding: 10px 15px;
-}  
-
-.button-acquista-ora {
-    border-radius: 30px;
-    background-color: rgb(255, 102, 0);
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    /* font-weight:600; */
-    margin-top: 20px;
-}
-
-.maggiori-info-blu{
-    background-color: rgb(62, 113, 232);
-}
-
-.esplora-plus-button,
-.esplora-now-button {
-    border-radius: 30px;
-    background-color: rgb(209, 212, 220);
-    color: rgb(62, 113, 232);
-    border: 3px solid hsl(240, 2%, 90%);
-    padding: 10px 15px;
-}
-
-.esplora-now-button {
-    color: black;
-}
-/* bottoni e pulsanti layout */
-
 
 .box-text-first {
     padding-bottom: 50px;
@@ -252,7 +270,7 @@ ul li {
     align-items: center;
     justify-content: center;
     font-size: 70px;
-}
+} 
 
 .overley-diapo:hover {
     background-color: rgba(0, 0, 0, 0);
@@ -262,6 +280,11 @@ ul li {
     transition: 1s;
     color: rgba(255, 255, 255, 0.823);
     transform: scale(1.1);
+} 
+
+.returnal-img-small:hover {
+    transform: translateY(-10px);
+    transition: 1s;
 }
 
 .returnal-img-small img {
@@ -390,21 +413,5 @@ footer {
 }
 /* footer  */
 
-/* 
-.debug {
-	position: fixed;
-	z-index: 9999;
-	top: 0;
-	left: 0;
-	width: 100%;
-}
-.debug .container {
-	border-left: 1px solid blue;
-	border-right: 1px solid blue;
-	height: 100vh;
-}
-.debug .col:not(:last-child) {
-	border-right: 1px solid red;
-	height: 100vh;
-}    */
+
 
