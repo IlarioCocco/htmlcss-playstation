@@ -110,6 +110,11 @@ header {
 
 
 /* section header bottom */
+.header-bottom {
+    background-color: white;
+    /* background: linear-gradient(#ffffff, #f3f4ff); */
+}
+
 .header-bottom .navbar-light .navbar-nav .nav-link {
     color: black;
     font-size: 17px;
@@ -121,10 +126,6 @@ header {
     display:inline-block;
     width: 10px;
     vertical-align: middle;
-}
-
-.header-bottom {
-    background-color: white;
 }
 
 .lente-icona {
@@ -283,7 +284,7 @@ ul li {
 } 
 
 .returnal-img-small:hover {
-    transform: translateY(-15px);
+    transform: translateY(-10px);
     transition: 1s;
 }
 
